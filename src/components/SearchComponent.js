@@ -41,7 +41,6 @@ class SearchComponent extends Component{
 
     searchStringhandler = (e) => {
         this.setState({searchString: e.target.value});
-        console.log(e.target.value)
     }
 
     logout = () => {
